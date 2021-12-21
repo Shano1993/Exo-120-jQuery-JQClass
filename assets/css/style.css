@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#container {
+    border: 0.1rem solid black;
+    width: 80rem;
+    height: 80rem;
+    margin: 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.case {
+    border: 0.1rem solid red;
+    width: 14rem;
+    height: 14rem;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+#thirteen {
+    transform-origin: center;
+    transform: rotate(45deg);
+    width: 10rem;
+    height: 10rem;
+}
+
+.full {
+    background-color: red;
+}
